@@ -1,0 +1,51 @@
+.projects{
+  margin-top: 30px;
+  padding: 20px;
+  &__title{
+    text-align: center;
+  }
+  &__card{
+    max-width: 300px;
+    padding: 10px;
+    background-color: $black;
+    border-radius: 8px;
+    box-shadow: rgba(180, 255, 150, 0.35) 0px 5px 10px;
+  }
+  .bold{
+    color: $green;
+  }
+  &__container{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  &__img{
+    width: 100%;
+    &--img{
+      width: 100%;
+    }
+  }
+  &__desc{
+    color: $light-gray;
+    margin: 10px 0;
+  }
+  .btn__wrapper{
+    &-btn{
+      display: inline-block;
+      border: 1px solid $green;
+      padding: 5px 8px;
+      text-decoration: none;
+      background-color: $green;
+      transition: 0.3s ease-in-out;
+      color: $black;
+      margin-right: 8px;
+      &:hover{
+        background-color:$black;
+        color: $green;
+      }
+    }
+  }
+}
