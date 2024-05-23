@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
 .container {
+  padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -83,6 +84,9 @@
   color: #d9d9d9;
   line-height: 25px;
 }
+.header__desc .bold {
+  color: rgb(78, 225, 160);
+}
 .header__contact-btn {
   text-decoration: none;
   padding: 5px 8px;
@@ -116,6 +120,41 @@
 .header__img {
   width: 100%;
   object-fit: cover;
+}
+
+.experience__title {
+  text-align: center;
+  font-size: 35px;
+}
+.experience__card {
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #151515;
+  border-radius: 8px;
+  box-shadow: rgba(180, 255, 150, 0.35) 0px 5px 10px;
+}
+.experience .timeline {
+  color: rgb(78, 225, 160);
+}
+.experience .list {
+  margin: 15px 0;
+  color: rgb(243, 255, 224);
+}
+.experience .tech {
+  color: white;
+}
+.experience .chip__wrapper {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.experience .chip {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(0, 107, 62) 0%, rgb(9, 121, 87) 64%, rgb(0, 255, 136) 100%);
+  padding: 5px 12px;
+  border-radius: 15px;
 }
 
 .skills {

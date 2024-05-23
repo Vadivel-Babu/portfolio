@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
-@import 'variable';
-@import 'container';
-@import 'header';
-@import 'skills';
-@import 'projects';
-@import 'footer';
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
+@import "variable";
+@import "container";
+@import "header";
+@import "experience";
+@import "skills";
+@import "projects";
+@import "footer";
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background-color: $black;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
-h1{
+h1 {
   color: white;
 }

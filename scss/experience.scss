@@ -1,0 +1,41 @@
+.experience {
+  &__title {
+    text-align: center;
+    font-size: 35px;
+  }
+  &__card {
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: $black;
+    border-radius: 8px;
+    box-shadow: rgba(180, 255, 150, 0.35) 0px 5px 10px;
+  }
+  .timeline {
+    color: $green;
+  }
+  .list {
+    margin: 15px 0;
+    color: rgb(243, 255, 224);
+  }
+  .tech {
+    color: white;
+  }
+  .chip__wrapper {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chip {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      180deg,
+      rgb(0, 107, 62) 0%,
+      rgb(9, 121, 87) 64%,
+      rgb(0, 255, 136) 100%
+    );
+    padding: 5px 12px;
+    border-radius: 15px;
+  }
+}
